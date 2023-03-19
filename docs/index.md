@@ -9,7 +9,7 @@ hero:
   text: ""
   tagline: "活力  激情  创新"
   image:
-    src: /static/banner/banner_3.jpg
+    src: /static/smyj.jpg
     width: 1200
     height: 399
 

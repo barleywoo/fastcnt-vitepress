@@ -17,22 +17,10 @@ export default defineConfig({
       { 
         text: '产品-解决方案', // link: '/prod/' ,
         items: [
-          {
-            // Title for the section.
-            text: 'Section A Title',
-            items: [
-              { text: 'Section AA Item A', link: '...' },
-              { text: 'Section AB Item B', link: '...' }
-            ]
-          },
-          {
-            // Title for the section.
-            text: 'Section B Title',
-            items: [
-              { text: 'Section BB Item A', link: '...' },
-              { text: 'Section BA Item B', link: '...' }
-            ]
-          }
+          { text: '小微贷款系统', link: '/prod/microCredit' },
+          { text: '银行核心系统', link: '/prod/corebank' },
+          { text: '互联网金融系列', link: '/prod/microCredit' },
+          { text: '软件测试和安全', link: '/prod/testing' }
         ]
     
       },
