@@ -9,7 +9,7 @@ hero:
   text: ""
   tagline: "活力  激情  创新"
   image:
-    src: /static/banner/banner_1.jpg
+    src: /static/banner/banner_3.jpg
     width: 1200
     height: 399
 
@@ -34,5 +34,4 @@ features:
 
 
 ---
-
 
