@@ -10,28 +10,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     aside: false,
     logo: '/static/fastcnt.svg',
+    
+
 
 
     nav: [
       { text: '主页', link: '/' },
-      { 
-        text: '产品-解决方案', // link: '/prod/' ,
-        items: [
-          { text: '小微贷款系统', link: '/prod/microCredit' },
-          { text: '银行核心系统', link: '/prod/corebank' },
-          { text: '互联网金融系列', link: '/prod/microCredit' },
-          { text: '软件测试和安全', link: '/prod/testing' }
-        ]
-    
-      },
-      { 
-        text: '关于我们', //link: '/about/' ,
-        items: [
-          { text: 'Section A Item A', link: '...' },
-          { text: 'Section B Item B', link: '...' }
-        ]
-        
-      },
+      { text: '产品-解决方案', link: '/prod/'},
+      { text: '关于我们', link: '/about/' },
       { text: '代理加盟', link: '/agent' },
       { text: '联系我们', link: '/contact' },
       { text: '荣誉', link: '/honor' },
@@ -39,15 +25,36 @@ export default defineConfig({
 
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/prod/': [
+        {
+          text: '产品系列',
+          items: [
+            { text: '小微贷系统', link: '/prod/microCredit' },
+            { text: '互联网金融', link: '/prod/fintech' },
+            { text: '核心银行系统', link: '/prod/corebank' },
+            { text: '自动化测试平台', link: '/prod/testing' }
+          ]
+        }
+      ],
+
+      '/about/': [
+        {
+          text: '关于我们',
+          items: [
+            { text: '关于', link: '/about/' },
+            { text: '创始人', link: '/about/founder' },
+            { text: '组织结构', link: '/about/structure' },
+            { text: '企业文化', link: '/about/culture' }
+          ]
+        }
+      ]
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
 
     footer: {
       message: '沪ICP备14038470号-1<br/>信息产业部备案管理系统网址<a href="https://beian.miit.gov.cn/">beian.miit.gov.cn</a>',
