@@ -9,14 +9,14 @@ hero:
   text: ""
   tagline: "活力  激情  创新"
   image:
-    src: /static/outline.png
+    src: /static/home/home.jpg
 
 
     
   actions:
     - theme: brand
       text: 联系我们
-      link: /contract
+      link: /contact
     - theme: alt
       text: 加入我们
       link: /joinus
@@ -48,5 +48,5 @@ features:
 
 
 <center>
-<img src='/static/smyj.jpg' />
+<img src='/static/home/smyj.jpg' />
 </center>
