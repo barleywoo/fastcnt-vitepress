@@ -5,14 +5,23 @@ export default defineConfig({
   title: "快连网络官网",
   titleTemplate: ':title - 快连',
   description: "快连网络服务（上海）有限公司门户网站",
+  lastUpdated: false,
 
+  head: [
+    [
+      'meta',
+      { name: '测试和安全', content: '代码扫描 单元测试 接口测试 服务测试 UI测试 功能测试' }
+    ],
+    [
+      'meta',
+      { name: '自动化测试', content: '测试自动化 自动化回归 POM模型 RobotFramework selenium webdriver' }
+    ]
+  ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     aside: false,
     logo: '/static/fastcnt.svg',
-    
-
-
 
     nav: [
       { text: '主页', link: '/' },
