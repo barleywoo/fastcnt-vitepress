@@ -1,8 +1,7 @@
 ---
 layout: doc
 aside: false
-
-
+title: "组织架构"
 
 ---
 

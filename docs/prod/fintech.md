@@ -1,7 +1,8 @@
 ---
 layout: doc
 aside: true
-
+title: "互联网金融"
+description: 快连网络互联网金融产品系列
 ---
 
 ![](/static/fintech/banner_4.jpg "")

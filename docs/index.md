@@ -9,7 +9,7 @@ hero:
   text: ""
   tagline: "活力  激情  创新"
   image:
-    src: /static/home/home.jpg
+    src: /iconImage/home/home.jpg
 
 
     
@@ -26,22 +26,22 @@ features:
     details: 以金字塔模型打造软件全生命周期安全与测试系列产品。
     link: /prod/testing
     icon:
-      src: /static/home/test.jpg
+      src: /iconImage/home/test.jpg
   - title: 互联网金融
     details: 全链条互联网金融业务产品，获客、转化、产品、风控、清结算、资产管理等。
     link: /prod/fintech
     icon:
-      src: /static/home/fintech.jpg
+      src: /iconImage/home/fintech.jpg
   - title: 核心银行系统
     details: 为适应银行互联网化发展，采用小核心架构，具有创新多，迭代快，分布式等特点。
     link: /prod/corebank
     icon:
-      src: /static/home/core.jpg
+      src: /iconImage/home/core.jpg
   - title: 小微金融系统
     details: 灵活机动的体系设计，满足多类机构小微金融业务需要，产品适用银行、互联网金融、融资租赁、小贷公司等。
     link: /prod/microCredit
     icon:
-      src: /static/home/micro.jpg
+      src: /iconImage/home/micro.jpg
 
 
 ---

@@ -1,7 +1,8 @@
 ---
 layout: doc
 aside: true
-
+title: "核心银行"
+description: 快连网络银行产品系列
 
 ---
 

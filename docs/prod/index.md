@@ -24,28 +24,28 @@ import {
 
 const members = [
   {
-    avatar: '/static/home/test.jpg',
+    avatar: '/iconImage/home/test.jpg',
     name: '自动化测试',
     title: '',
     org: '前往',
     orgLink: '/prod/testing'
   },
   {
-    avatar: '/static/home/fintech.jpg',
+    avatar: '/iconImage/home/fintech.jpg',
     name: '互联网金融',
     title: '',
     org: '前往',
     orgLink: '/prod/fintech'
   },
   {
-    avatar: '/static/home/core.jpg',
+    avatar: '/iconImage/home/core.jpg',
     name: '核心银行',
     title: '',
     org: '前往',
     orgLink: '/prod/corebank'
   },
   {
-    avatar: '/static/home/micro.jpg',
+    avatar: '/iconImage/home/micro.jpg',
     name: '小微金融',
     title: '',
     org: '前往',

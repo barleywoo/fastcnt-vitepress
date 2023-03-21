@@ -15,17 +15,22 @@ export default defineConfig({
     [
       'meta',
       { name: '自动化测试', content: '测试自动化 自动化回归 POM模型 RobotFramework selenium webdriver' }
+    ],
+    [
+      'link',
+      {rel: "icon", href: "/iconImage/fastcnt.svg" }
     ]
   ],
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     aside: false,
-    logo: '/static/fastcnt.svg',
+    logo: '/iconImage/fastcnt.svg',
 
     nav: [
       { text: '主页', link: '/' },
       { text: '产品-解决方案', link: '/prod/'},
+      { text: '自动化测试系列', link: '/prod/test/'},
       { text: '关于我们', link: '/about/' },
       { text: '代理加盟', link: '/agent' },
       { text: '联系我们', link: '/contact' },
@@ -42,7 +47,17 @@ export default defineConfig({
             { text: '小微贷系统', link: '/prod/microCredit' },
             { text: '互联网金融', link: '/prod/fintech' },
             { text: '核心银行系统', link: '/prod/corebank' },
-            { text: '自动化测试平台', link: '/prod/testing' }
+            { 
+              text: '自动化测试平台', //link: '/prod/testing' 
+              collapsed: false,
+              items: [
+                { text: '金字塔方案', link: '/prod/test/' },
+                { text: '代码审计', link: '/prod/test/codeScan' },
+                { text: '接口测试', link: '/prod/test/iface' },
+                { text: 'U I 测试', link: '/prod/test/behave' },
+                { text: '性能测试', link: '/prod/test/perf' }
+              ]
+            }
           ]
         }
       ],
@@ -66,7 +81,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '沪ICP备14038470号-1<br/>信息产业部备案管理系统网址<a href="https://beian.miit.gov.cn/">beian.miit.gov.cn</a>',
+      message: '沪ICP备14038470号-1<br/>信息产业部备案管理系统网址<a href="https://beian.miit.gov.cn/" target="_blank">beian.miit.gov.cn</a>',
       copyright: 'Copyright©2013快连网络服务有限公司版权所有'
     },
   

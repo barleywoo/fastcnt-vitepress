@@ -1,8 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: doc
-title: "产品系列"
-description: 快连网络产品系列
+title: "代理加盟"
 
 head:
   - - meta

@@ -2,6 +2,7 @@
 layout: doc
 aside: true
 outline: 'deep'
+title: "金字塔模型"
 
 ---
 ![](/static/testing/autotest.png "")
