@@ -28,7 +28,7 @@ const members = [
     name: '自动化测试',
     title: '',
     org: '前往',
-    orgLink: '/prod/testing'
+    orgLink: '/prod/test/'
   },
   {
     avatar: '/iconImage/home/fintech.jpg',
