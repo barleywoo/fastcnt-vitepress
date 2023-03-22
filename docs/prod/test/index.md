@@ -1,9 +1,9 @@
 ---
 layout: doc
 aside: true
-outline: 'deep'
-title: "金字塔模型"
 
+title: "金字塔模型"
+outline: 'deep'
 ---
 ![](/static/testing/autotest.png "")
 

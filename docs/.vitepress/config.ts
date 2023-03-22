@@ -29,8 +29,8 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '产品-解决方案', link: '/prod/'},
-      { text: '自动化测试系列', link: '/prod/test/'},
+      { text: '产品-金融系列', link: '/prod/'},
+      { text: '产品-测试系列', link: '/prod/test/'},
       { text: '关于我们', link: '/about/' },
       { text: '代理加盟', link: '/agent' },
       { text: '联系我们', link: '/contact' },
@@ -42,22 +42,23 @@ export default defineConfig({
     sidebar: {
       '/prod/': [
         {
-          text: '产品系列',
+          text: '金融产品系列',
+          collapsed: false,
           items: [
-            { text: '小微贷系统', link: '/prod/microCredit' },
-            { text: '互联网金融', link: '/prod/fintech' },
-            { text: '核心银行系统', link: '/prod/corebank' },
-            { 
-              text: '自动化测试平台', //link: '/prod/testing' 
-              collapsed: false,
-              items: [
-                { text: '金字塔方案', link: '/prod/test/' },
-                { text: '代码审计', link: '/prod/test/codeScan' },
-                { text: '接口测试', link: '/prod/test/iface' },
-                { text: 'U I 测试', link: '/prod/test/behave' },
-                { text: '性能测试', link: '/prod/test/perf' }
-              ]
-            }
+            { text: '小微贷系统', link: '/prod/fin/microCredit' },
+            { text: '互联网金融', link: '/prod/fin/fintech' },
+            { text: '核心银行系统', link: '/prod/fin/corebank' },
+          ]
+        },
+        {
+          text: '自动化测试系列', //link: '/prod/testing' 
+          collapsed: false,
+          items: [
+            { text: '金字塔方案', link: '/prod/test/' },
+            { text: '代码审计', link: '/prod/test/codeScan' },
+            { text: '接口测试', link: '/prod/test/iface' },
+            { text: 'U I 测试', link: '/prod/test/behave' },
+            { text: '性能测试', link: '/prod/test/perf' }
           ]
         }
       ],

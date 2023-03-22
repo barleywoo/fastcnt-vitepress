@@ -5,11 +5,11 @@ title: "互联网金融"
 description: 快连网络互联网金融产品系列
 ---
 
-![](/static/fintech/banner_4.jpg "")
+![](/static/fin/fintech/banner_4.jpg "")
 
 快连网络为互联网金融业务提供全方位的产品和解决方案。从互联网获客，到营销型CRM进行客户转化，再为客户匹配合适的金融产品。与客户达成业务后，由清结算系统和资产管理系统负责后续的业务管理，以此形成完整的业务闭环。
 
-![](/static/fintech/overview.png "")
+![](/static/fin/fintech/overview.png "")
 
 
 
@@ -22,20 +22,20 @@ description: 快连网络互联网金融产品系列
 - 灵活适应：适用多个行业的全适应客户管理系统。
 - 移动办公：不管办公室或外出都可一手掌握客户信息。
 - 全链跟踪：覆盖销售、营销、服务客户全生命周期管理。
-![](/static/fintech/crm.png "")
+![](/static/fin/fintech/crm.png "")
 
 ## 前沿风控系统
 - 智能预审：对接众多大数据，过滤无/低资质客户。
 - 多个资方：对接多个资方为客户提供最大审批灵活。
 - 审核响应：自动智能预审+多级人工复审，风险降到最低。
 - 资方交互：审核结论结果与各资方系统对接，实时知道。
-![](/static/fintech/riskmgr.png "")
+![](/static/fin/fintech/riskmgr.png "")
 
 ## 清算结算系统
 - 用户账期：自动账户账期，细化管理每期额度。
 - 放/扣款：为各方人员提供明细化放款记录。
 - 佣金/垫付：自动核算业务佣金和垫付服务。
-![](/static/fintech/settle.png "")
+![](/static/fin/fintech/settle.png "")
 
 ## 资产管理系统
 - 坐席服务：根据客户不同的状态，进行一对一专业服务。
@@ -43,5 +43,5 @@ description: 快连网络互联网金融产品系列
 - 委外服务：委托第三方专业的服务商进行服务。
 - 结案服务：根据客户不同情况结案后续进行维护跟踪服务。
 - 自动化分案：系统根据设置规则进行自动分配案件，实现无需人工分配。
-![](/static/fintech/coll.png "")
+![](/static/fin/fintech/coll.png "")
 

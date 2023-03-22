@@ -35,21 +35,21 @@ const members = [
     name: '互联网金融',
     title: '',
     org: '前往',
-    orgLink: '/prod/fintech'
+    orgLink: '/prod/fin/fintech'
   },
   {
     avatar: '/iconImage/home/core.jpg',
     name: '核心银行',
     title: '',
     org: '前往',
-    orgLink: '/prod/corebank'
+    orgLink: '/prod/fin/corebank'
   },
   {
     avatar: '/iconImage/home/micro.jpg',
     name: '小微金融',
     title: '',
     org: '前往',
-    orgLink: '/prod/microCredit'
+    orgLink: '/prod/fin/microCredit'
   }
 ]
 </script>
